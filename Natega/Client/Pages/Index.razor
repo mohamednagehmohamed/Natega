@@ -1,0 +1,125 @@
+﻿@page "/"
+
+<MudContainer  Style="max-height: 80vh;overflow-y: scroll;" Class="py-2">
+    <EditForm  Model="@oneStudent" OnValidSubmit="()=>OnValidSubmit(oneStudent.seating_no)">
+        <DataAnnotationsValidator />
+        <MudCard >
+            <MudCardHeader>
+                <MudStack AlignItems="AlignItems.Center">
+                    <MudImage  Src="/eagle.png" Width="50" Height="50" Alt="Natega" Elevation="25" Class="rounded-lg ma-4" />
+                    <MudText Align="Align.Center" Style="align-content:center" Typo="Typo.h6">نتيجة الثانوية العامة</MudText>
+                    <MudText Align="Align.Center" Typo="Typo.h6" >@datetime</MudText>
+                </MudStack>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudGrid>
+
+                    <MudItem  xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">رقم الجلوس</MudText>
+                        <MudTextField  
+                            
+                                      MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Seating Number"
+                                        HelperTextOnFocus
+                                      @bind-Value="oneStudent.seating_no"
+                                      For="@(() =>oneStudent.seating_no)"
+                                      Variant="Variant.Outlined"
+                                      
+                                    AdornmentColor="Color.Success" />
+                        </MudItem>
+
+                        <MudItem xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">الاسم</MudText>
+                        <MudTextField 
+                                      MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Name"
+                                        HelperTextOnFocus
+                                      @bind-Value="oneStudent.arabic_name"
+                                      For="@(() =>oneStudent.arabic_name)"
+                                      Variant="Variant.Outlined"
+                                      Margin="Margin.Dense"
+                                      AdornmentColor="Color.Success" />
+                        </MudItem>
+                        <MudItem xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">المجموع الكلي</MudText>
+                        <MudTextField 
+                                      MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Total Degree"
+                                        HelperTextOnFocus
+                                      @bind-Value="oneStudent.total_degree"
+                                      For="@(() =>oneStudent.total_degree)"
+                                      Variant="Variant.Outlined"
+                                      Margin="Margin.Dense"
+                                      AdornmentColor="Color.Success" />
+                        </MudItem>
+                        <MudItem xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">حالة الطالب</MudText>
+                        <MudTextField 
+                                      MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Student Case Description"
+                                        HelperTextOnFocus
+                                      @bind-Value="oneStudent.student_case_desc"
+                                      For="@(() =>oneStudent.student_case_desc)"
+                                      Variant="Variant.Outlined"
+                                      Margin="Margin.Dense"
+                                      AdornmentColor="Color.Success" />
+                        </MudItem>
+
+                        <MudItem xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">الترتيب علي مستوي الجمهوريه</MudText>
+                        <MudTextField MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Student Case Description"
+                                        HelperTextOnFocus
+                                      @bind-Value="standing"
+                                      For="@(() =>standing)"
+                                      Variant="Variant.Outlined"
+                                      Margin="Margin.Dense"
+                                      AdornmentColor="Color.Success" />
+                        </MudItem>
+
+                        <MudItem xs="12" sm="12" Class="py-0">
+                        <MudText Typo="Typo.h5">الشعبة</MudText>
+                        <MudTextField 
+                                      MaxLength=50
+                                      Class="mt-2"
+                                      Immediate="false"
+                                      HelperText="Flag"
+                                        HelperTextOnFocus
+                                      @bind-Value="Studentshoaba"
+                                      For="@(() =>Studentshoaba)"
+                                      Variant="Variant.Outlined"
+                                      Margin="Margin.Dense"
+                                      AdornmentColor="Color.Success" />
+                        </MudItem>
+                        </MudGrid>
+
+
+
+
+                        </MudCardContent>
+                        <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit"
+                           Variant="Variant.Filled"
+                           FullWidth
+                           Color=Color.Primary>
+                   
+               
+                 
+                      البحث عن النتيجة
+                    
+                </MudButton>
+            </MudCardActions>
+        </MudCard>
+
+    </EditForm>
+</MudContainer>

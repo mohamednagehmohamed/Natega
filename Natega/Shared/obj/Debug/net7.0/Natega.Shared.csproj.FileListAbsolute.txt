@@ -1,0 +1,14 @@
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\bin\Debug\net7.0\Natega.Shared.deps.json
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\bin\Debug\net7.0\Natega.Shared.runtimeconfig.json
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\bin\Debug\net7.0\Natega.Shared.dll
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\bin\Debug\net7.0\Natega.Shared.pdb
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.csproj.AssemblyReference.cache
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.AssemblyInfoInputs.cache
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.AssemblyInfo.cs
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.csproj.CoreCompileInputs.cache
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.dll
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\refint\Natega.Shared.dll
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.pdb
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\Natega.Shared.genruntimeconfig.cache
+C:\Users\programmer18\source\repos\Natega\Natega\Shared\obj\Debug\net7.0\ref\Natega.Shared.dll
